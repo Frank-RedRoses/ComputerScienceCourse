@@ -6,9 +6,24 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch HelloWorldMultilingual",
+      "request": "launch",
+      "mainClass": "week1.webexercises.HelloWorldMultilingual",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch UseThree",
+      "request": "launch",
+      "mainClass": "week1.exercises.UseThree",
+      "args": "Alice Bob Carol",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
       "name": "Launch TenHelloWorlds",
       "request": "launch",
-      "mainClass": "Week1.Exercises.TenHelloWorlds",
+      "mainClass": "week1.exercises.TenHelloWorlds",
       "projectName": "ComputerScienceCourse_36943d36"
     },
     {

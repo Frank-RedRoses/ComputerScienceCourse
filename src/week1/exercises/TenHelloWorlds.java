@@ -1,4 +1,4 @@
-package Week1.Exercises;
+package week1.exercises;
 /*
  *  Write a program TenHelloWorlds.java that prints "Hello, World" ten times.
  */

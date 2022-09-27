@@ -1,0 +1,28 @@
+Describe what happens if, in HelloWorld.java, you omit
+    a) main         = error: <identifier> expected      public static void ^ (String[] args)
+    b) String       = error: <identifier> expected      public static void main( args ^)
+    c) HelloWorld   = error: <identifier> expected      public class ^ {
+    d) System.out   = error: cannot find symbol         ^println("Hello, World!");
+    e) println      = error: <identifier> expected      System.out.^("Hello, World!");
+
+Describe what happens if, in HelloWorld.java, you omit
+    a) the ;        = error: ';' expected               System.out.println("Hello, World!")^
+    b) the first "  = error1: ')' expected              System.out.println(Hello, World!^");
+                      error2: unclosed string literal   System.out.println(Hello, World!"^);
+    c) the second " = error: unclosed string literal    
+    d) the first {  = error: '{' expected               public class HelloWorld^
+    e) the second { = error1: ';' expected              public static void main(String[] args)^
+                      error2: class, interface, or enum expected
+    f) the first }  = error: reached end of file while parsing
+    g) the second } = error: reached end of file while parsing
+
+Describe what happens if, in HelloWorld.java, you misspell (by, say, omitting the second letter)
+    a) main         = Compiles the code without the main method, but containing a min() method
+    b) String       = error: cannot find symbol         public static void main(^Sring[] args)
+                        symbol:     class Sring
+                        location:   class HelloWorld
+    c) HelloWorld   = error: class HlloWorld is public, should be declared in a file named HlloWorld.java
+    d) System.out   = error: package Sstem does not exist Sstem^.out.println("Hello, World!");
+    e) println      = error: cannot find symbol         System.out.pintln^("Hello, World!");
+                        symbol:     method pintln(String)
+                        location:   variable out of tyoe PrintStream
