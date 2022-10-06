@@ -1,0 +1,7 @@
+
+Exponentiation. What is wrong with the following code fragment to compute a2, where a is of type double?
+
+double b = a^2;
+
+Solution: Java does not support exponentiation with the ^ sign (^ it is the exclusive or function from logic).
+For cuadratic values use the a*a instead, and for a^b values use Math.pow(a,b).

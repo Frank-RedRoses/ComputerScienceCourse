@@ -1,0 +1,10 @@
+A physics student gets unexpected results when using the code.
+    
+    double force = G * mass1 * mass2 / r * r; 
+
+to compute values according to the formula F = Gm1m2 / r^2. Explain the problem and correct the code.
+
+Solution: The code multiplies G, mass1 and mass2, then it divides by r, then multiplies by r,
+rather than dividing by r^2. To correct the code use parentheses to give precedence to (r * r).
+
+    double force = G * mass1 * mass2 / (r * r);

@@ -1,0 +1,16 @@
+
+What does the compiler do if you try to write the following expression:
+
+int a = 27 * "three";
+
+Solution: The operator * is undefined for the argument type(s) int, String
+
+
+
+What does the compiler do if you try to write the following expression:
+
+double x;
+System.out.println(x);
+
+Solution: The local variable x may not have been initialized. Variables within main 
+are not automatically initialized

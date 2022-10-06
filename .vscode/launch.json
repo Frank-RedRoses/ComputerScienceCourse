@@ -6,6 +6,268 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Trig",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.Trig",
+      "args": "90.0",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Barycenter",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.Barycenter",
+      "args": "0.0021 0.000254 19600",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch BMI",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.BMI",
+      "args": "75 1.73",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch EquatorialToHorizontal",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.EquatorialToHorizontal",
+      "args": "25.9 19.7 50.0",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch TriangleArea",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.TriangleArea",
+      "args": "5 5 5",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Divisibility",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.Divisibility",
+      "args": "21 64",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ordered",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.Ordered",
+      "args": "40 5 55",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch EuclideanDistance",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.EuclideanDistance",
+      "args": "5 10 -7 4",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch LeapYear",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.LeapYear",
+      "args": "2000",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch ThreeEqualParams",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.ThreeEqualParams",
+      "args": "1 1 true",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Stats5",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.Stats5",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch FibonacciWord",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.FibonacciWord",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch GuessBiggestNumber",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.GuessBiggestNumber",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch DivideByZero",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.DivideByZero",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch WhatIsTheValueOf",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.WhatIsTheValueOf",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch WhyDoesNotPrint",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.WhyDoesNotPrint",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch RGBtoCMYK",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.RGBtoCMYK",
+      "args": "255 118 0",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch CMYKtoRGB",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.CMYKtoRGB",
+      "args": "0.21 0.51 1.0 0.67",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch YIQToRGB",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.YIQToRGB",
+      "args": "47.114999999999995 -3.730399999999996 61.1859",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch RGBToYIQ",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.RGBToYIQ",
+      "args": "77 4 151",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Swap",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.webexercises.Swap",
+      "args": "11 99",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Dragon",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.creativeexercises.Dragon",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch ThreeSort",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.creativeexercises.ThreeSort",
+      "args": "17 50 17",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Stats5",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.creativeexercises.Stats5",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch DayOfWeek",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.creativeexercises.DayOfWeek",
+      "args": "1 1 2000",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch CartesianToPolar",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.creativeexercises.CartesianToPolar",
+      "args": "3.0 4.0",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch WindChill",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.creativeexercises.WindChill",
+      "args": "15 85",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch SpringSeason",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.exercises.SpringSeason",
+      "args": "4 30",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch SumOfSines",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.exercises.SumOfSines",
+      "args": "30",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch SumOfTwoDice",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.exercises.SumOfTwoDice",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Distance",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.exercises.Distance",
+      "args": "5 12",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Quadratic",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.exercises.Quadratic",
+      "args": "0 -64",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch WhatDoesItPrint",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.exercises.WhatDoesItPrint",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch WhatItDoes",
+      "request": "launch",
+      "mainClass": "week1.builtindatatype.exercises.WhatItDoes",
+      "args": "4 5",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
       "name": "Launch HelloWorldMultilingual",
       "request": "launch",
       "mainClass": "week1.webexercises.HelloWorldMultilingual",

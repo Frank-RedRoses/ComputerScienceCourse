@@ -1,0 +1,15 @@
+Why doesn't the following program print 4294967296 = 2^32?
+
+int x = 65536;
+long y = x * x;
+System.out.println(y);
+
+
+Solution: The product of x is computed as an int, but it overflows the maximum 32 bit value of 2^31 - 1
+for an integer (max positive int 2,147,483,647), before it gets converted to long. 
+
+x * x = 65536 * 65536 = 4,294,967,296 = 2^32. 
+
+2^31 is used instead of 2^32 because the 32nd bit is used to represent the negative or positive sign.
+
+2^31 - 1 because positive numbers include the 0 value.

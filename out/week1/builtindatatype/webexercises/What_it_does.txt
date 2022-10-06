@@ -1,0 +1,6 @@
+What does the following statement do where grade is a variable of type int?
+
+boolean isA = (90 <= grade <= 100);
+
+Solution: an error. The syntax is wrong since <= is a binary operator. 
+The correct statement is (90 <= grade && grade <= 100)
