@@ -1,0 +1,13 @@
+What does the following program do?
+
+public static void main(String[] args) {
+   int N = Integer.parseInt(args[0]);
+   int x = 1;
+   while (N >= 1) {
+      System.out.println(x);
+      x = 2 * x;
+      N = N / 2;
+   }
+}
+
+Solution: Prints all of the powers of 2 less than or equal to n.

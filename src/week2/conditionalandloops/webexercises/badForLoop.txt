@@ -1,0 +1,13 @@
+What's wrong with the following loop that is intended to compute 
+the sum of the integers 1 through 100?
+
+for (int i = 1; i <= N; i++) {
+   int sum = 0;
+   sum = sum + i;
+}
+
+System.out.println(sum);
+
+The variable sum should be defined outside the loop. 
+By defining it inside the loop, a new variable sum is initialized to 0 
+each time through the loop; also it is not even accessible outside the loop.

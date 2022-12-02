@@ -1,0 +1,7 @@
+What does the following code fragment do?
+
+if (x > 0);
+    System.out.println("positive");
+
+Solution: always prints positive regardless of the value of x 
+because of the extra semicolon after the if statement.

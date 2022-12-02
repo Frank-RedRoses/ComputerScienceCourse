@@ -6,6 +6,337 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ThueMorseSequence",
+      "request": "launch",
+      "mainClass": "week3.arrays.optionalenrichment.ThueMorseSequence",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch NumberToEnglish",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.webexercises.NumberToEnglish",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch DayOfTheWeek",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.webexercises.DayOfTheWeek",
+      "args": "1 1 2000",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch TossAFairCoin",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.webexercises.TossAFairCoin",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch HoursOfTheDay",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.webexercises.HoursOfTheDay",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch FindDuplicate",
+      "request": "launch",
+      "mainClass": "week3.arrays.optionalenrichment.FindDuplicate",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch RectangularMatrices",
+      "request": "launch",
+      "mainClass": "week3.arrays.optionalenrichment.RectangularMatrices",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch SelfAvoidingWalk",
+      "request": "launch",
+      "mainClass": "week3.arrays.lessons.SelfAvoidingWalk",
+      "args": "90 100",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch PrimeSieve",
+      "request": "launch",
+      "mainClass": "week3.arrays.lessons.PrimeSieve",
+      "args": "1000",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Sample",
+      "request": "launch",
+      "mainClass": "week3.arrays.lessons.Sample",
+      "args": "10 1000",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Deck",
+      "request": "launch",
+      "mainClass": "week3.arrays.lessons.Deck",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayExamples",
+      "request": "launch",
+      "mainClass": "week3.arrays.lessons.ArrayExamples",
+      "args": "5",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Test",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.optionalenrichment.Test",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch RandomWalker2D",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.optionalenrichment.RandomWalker2D",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch PrimeCounter",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.optionalenrichment.PrimeCounter",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch WhatIsTheResult",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.webexercises.WhatIsTheResult",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch BoysAndGirls",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.webexercises.BoysAndGirls",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch FamilyPlanning",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.webexercises.FamilyPlanning",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch HSVtoRGB",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.webexercises.HSVtoRGB",
+      "args": "174 75 75",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch RGBtoHSV",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.webexercises.RGBtoHSV",
+      "args": "45 215 0",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Hurricane",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.webexercises.Hurricane",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch MedianHard",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.webexercises.MedianHard",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Median",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.webexercises.Median",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch DistinctValues",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.webexercises.DistinctValues",
+      "args": "1 1 1",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch RollDie",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.webexercises.RollDie",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Euler",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.creativeexercises.Euler",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch MonteHall",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.creativeexercises.MonteHall",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Cos",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.creativeexercises.Cos",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Sin",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.creativeexercises.Sin",
+      "args": "-7.5",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Exp",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.creativeexercises.Exp",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch ISBN",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.creativeexercises.ISBN",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ramanujan",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.creativeexercises.Ramanujan",
+      "args": "87539319 | sort -n",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch RelativelyPrime",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.exercises.RelativelyPrime",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Factors",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.exercises.Factors",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch IntegerToBinaryString",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.exercises.IntegerToBinaryString",
+      "args": "19",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Kary",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.exercises.Kary",
+      "args": "12021",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch binary",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.exercises.binary",
+      "args": "150",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch MyKary",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.exercises.MyKary",
+      "args": "150 2",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch WhatDoesThisCode",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.exercises.WhatDoesThisCode",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch WhatItDoes",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.exercises.WhatItDoes",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch FunctionGrowth",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.exercises.FunctionGrowth",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch FivePerLine",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.exercises.FivePerLine",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Hellos",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.exercises.Hellos",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "1000"
+    },
+    {
+      "type": "java",
+      "name": "Launch RollLoadedDie",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.exercises.RollLoadedDie",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch AllEqual",
+      "request": "launch",
+      "mainClass": "week2.conditionalandloops.exercises.AllEqual",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "1 2 1"
+    },
+    {
+      "type": "java",
       "name": "Launch Trig",
       "request": "launch",
       "mainClass": "week1.builtindatatype.webexercises.Trig",

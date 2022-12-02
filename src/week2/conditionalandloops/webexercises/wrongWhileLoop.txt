@@ -1,0 +1,15 @@
+What's wrong with the following loop?
+
+boolean done = false;
+while (done = false) {
+    ...
+}
+
+The while loop condition uses = instead of == so it is an assignment statement
+ (which makes done always false and the body of the loop will never be executed).
+  It's better to style to avoid using ==.
+  
+boolean done = false;
+while (!done) {
+    ...
+}
