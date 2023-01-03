@@ -6,6 +6,180 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Q45",
+      "request": "launch",
+      "mainClass": "week4.io.Q45",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": [
+        "<",
+        "${workspaceFolder}/resources/In/Input.txt"
+      ]
+    },
+    {
+      "type": "java",
+      "name": "Launch Spirographs",
+      "request": "launch",
+      "mainClass": "week4.io.optional_enrichment.Spirographs",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "100.0 15.0 50.0"
+    },
+    {
+      "type": "java",
+      "name": "Launch PlayThatTune",
+      "request": "launch",
+      "mainClass": "week4.io.lectures.PlayThatTune",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": [
+        "<",
+        "${workspaceFolder}/resources/In/music/StairwayToHeaven.txt"
+      ]
+    },
+    {
+      "type": "java",
+      "name": "Launch Springs",
+      "request": "launch",
+      "mainClass": "week4.io.lectures.Springs",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "5"
+    },
+    {
+      "type": "java",
+      "name": "Launch SimpleAttractors",
+      "request": "launch",
+      "mainClass": "week4.io.lectures.SimpleAttractors",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "20"
+    },
+    {
+      "type": "java",
+      "name": "Launch OneSimpleAttractor",
+      "request": "launch",
+      "mainClass": "week4.io.lectures.OneSimpleAttractor",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch MouseFollower",
+      "request": "launch",
+      "mainClass": "week4.io.lectures.MouseFollower",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch BouncingBallDeluxe",
+      "request": "launch",
+      "mainClass": "week4.io.lectures.BouncingBallDeluxe",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch BouncingBall",
+      "request": "launch",
+      "mainClass": "week4.io.lectures.BouncingBall",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch FunctionGraph",
+      "request": "launch",
+      "mainClass": "week4.io.lectures.FunctionGraph",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "2000"
+    },
+    {
+      "type": "java",
+      "name": "Launch PlotFilter",
+      "request": "launch",
+      "mainClass": "week4.io.lectures.PlotFilter",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": [
+        "<",
+        "${workspaceFolder}/resources/In/USA.txt"
+      ]
+    },
+    {
+      "type": "java",
+      "name": "Launch Triangle",
+      "request": "launch",
+      "mainClass": "week4.io.lectures.Triangle",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Average",
+      "request": "launch",
+      "mainClass": "week4.io.lectures.Average",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwentyQuestions",
+      "request": "launch",
+      "mainClass": "week4.io.lectures.TwentyQuestions",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch AddInts",
+      "request": "launch",
+      "mainClass": "week4.io.lectures.AddInts",
+      "args": "4",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayExamples",
+      "request": "launch",
+      "args": "5",
+      "mainClass": "week3.arrays.lectures.ArrayExamples",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Triangle",
+      "request": "launch",
+      "mainClass": "week4.io.lessons.Triangle",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Histogram",
+      "request": "launch",
+      "mainClass": "week4.io.optional_enrichment.Histogram",
+      "args": "6 0.0 500.0",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch DigitalSignalAnalysis",
+      "request": "launch",
+      "mainClass": "week4.io.optional_enrichment.DigitalSignalAnalysis",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch MissingValue",
+      "request": "launch",
+      "mainClass": "week4.io.optional_enrichment.MissingValue",
+      "args": "10",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch FilterConsecutiveInteger",
+      "request": "launch",
+      "mainClass": "week4.io.optional_enrichment.FilterConsecutiveInteger",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch LongestConsecutiveInteger",
+      "request": "launch",
+      "mainClass": "week4.io.optional_enrichment.LongestConsecutiveInteger",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
       "name": "Launch ThueMorseSequence",
       "request": "launch",
       "mainClass": "week3.arrays.optionalenrichment.ThueMorseSequence",

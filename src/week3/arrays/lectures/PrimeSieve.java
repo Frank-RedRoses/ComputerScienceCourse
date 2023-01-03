@@ -1,4 +1,4 @@
-package week3.arrays.lessons;
+package week3.arrays.lectures;
 
 /******************************************************************************
  *  Compilation:  javac PrimeSieve.java
@@ -53,21 +53,22 @@ public class PrimeSieve {
         // mark non-primes <= n using Sieve of Erastosthenes
         /*
          * The Sieve of Erastosthenes marks as nonprimes the multiples of a number.
-         * So for example, to find primes less than 50 start with the first prime 2 (0 and 1 are not prime numbers)
-         * and then check for every multiple of 2, multiply 2 by a sequence starting at 2 and stops when 2*i > 50.
+         * So for example, to find primes less than 50 start with the first prime 2 
+         * (0 and 1 are not prime numbers)
+         * and then check for every multiple of 2, start at 2 and stops when 2*i > 50.
          * 2*2 = 4; 2*3 = 6; 2*4 = 8;... 2*25 = 50. Mark every result as non-prime.
          * Go to the next prime number, in this case 3, and do the same
          * 3*3 = 9; 3*4 = 12; 3*5 = 15;... stops when 3*i > 50. Mark every result as non-prime.
-         * There is no need to check a multiplication lower than 3*3 because the previous prime has already
-         * checked the lower multiplications, in this example 2*3 = 3*2 = 6, is already marked. 
-         * Go to the next prime number, in this case 5 (4 is a multiple of 2), and then do the same. 
+         * There is no need to check a multiplication lower than 3*3 because the previous numbers
+         * has been already checked by lower multiplications. Ex. 2*3 = 3*2 = 6, is already checked. 
+         * Go to the next prime number 5 (4 is a multiple of 2), do the same. 
          * 5*5 = 25; 5*6 = 30; ... stops when 5*i > 50. Mark every result as non-prime.
          * There is no need to check multiples of a non-prime number because every multiple is already 
          * marked as non-prime. Ex. 4*4 = 16, 6*7 = 42, all multiples of 2. 
-         * Continue to prime 7, find 7*7 and stop there, 7*8 = 56 > 50. 
+         * Continue to prime 7, find 7*7 and stop (7*8 = 56 > 50). 
          * There is no need to check for any number greater than 7 because 7*7 = 49, the next number 8 
          * is a multiple of 2 and also 8*8 = 64 > 50.
-         * The next prime is 11 so 11*11 = 121 > 50.
+         * The next prime number in the sequence of primes is 11 so 11*11 = 121 > 50.
          */
         for (int factor = 2; factor*factor < n; factor++) {  // Check only for number less than sqrt(n).
             // if factor is a prime, then mark multiples of factor as nonprimes

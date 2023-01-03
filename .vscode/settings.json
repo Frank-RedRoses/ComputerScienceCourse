@@ -3,5 +3,20 @@
     "src"
   ],
   "java.project.outputPath": "out",
-  "vscode-pets.position": "explorer"
+  "vscode-pets.position": "explorer",
+  "java.dependency.packagePresentation": "hierarchical",
+  // "java.debug.settings.console": "internalConsole",
+  // "java.debug.settings.forceBuildBeforeLaunch": false,
+  // "java.silentNotification": true,
+  "java.project.referencedLibraries": {
+    "include": [
+      "lib/**/*.jar",
+      "src/week4/io/optional_enrichment/stdlib.jar"
+    ],
+    "exclude": [
+      "lib/IO/stdlib.jar",
+      "lib/introCS/introcs.jar"
+    ]
+  }
+
 }
