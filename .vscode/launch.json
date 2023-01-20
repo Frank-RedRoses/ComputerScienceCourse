@@ -6,6 +6,105 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch PokerClient",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.optional_enrichment.PokerClient",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch FourierSpikes",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.optional_enrichment.FourierSpikes",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "500"
+    },
+    {
+      "type": "java",
+      "name": "Launch ValuesInArrayHistogram",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.optional_enrichment.ValuesInArrayHistogram",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch LargestNummberLessThanLogBase2",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.optional_enrichment.LargestNummberLessThanLogBase2",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Bernoulli",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.lectures.librariesandclients.Bernoulli",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "128 100000"
+    },
+    {
+      "type": "java",
+      "name": "Launch IFS",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.lectures.librariesandclients.IFS",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": [
+        "20000",
+        "<",
+        "${workspaceFolder}/resources/In/fractals/tree.txt"
+      ]
+    },
+    {
+      "type": "java",
+      "name": "Launch Sierpinski",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.lectures.librariesandclients.Sierpinski",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "10000"
+    },
+    {
+      "type": "java",
+      "name": "Launch PlayThatTuneDeluxe",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.lectures.staticmethods.PlayThatTuneDeluxe",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": [
+        "<",
+        "${workspaceFolder}/resources/In/music/elise.txt"
+      ]
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayFunctionExamples",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.lectures.staticmethods.ArrayFunctionExamples",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Coupon",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.lectures.staticmethods.Coupon",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "1000"
+    },
+    {
+      "type": "java",
+      "name": "Launch Gaussian",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.lectures.staticmethods.Gaussian",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "820 1019 209"
+    },
+    {
+      "type": "java",
+      "name": "Launch Harmonic",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.lectures.staticmethods.Harmonic",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "1 2 4"
+    },
+    {
+      "type": "java",
       "name": "Launch Q45",
       "request": "launch",
       "mainClass": "week4.io.Q45",
