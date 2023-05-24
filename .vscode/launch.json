@@ -6,6 +6,366 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Ex33Tree",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex33Tree",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex32McCarthy",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex32McCarthy",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex31PlasmaCloud",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex31PlasmaCloud",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex30BrownianIsland",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex30BrownianIsland",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex29MaximumCollatz",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex29MaximumCollatz",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "MaximumCollatz",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.MaximumCollatz",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex26AnimatedHanoi",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex26AnimatedHanoi",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex24GrayCode",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex24GrayCode",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex22RecursiveSquares",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex22RecursiveSquares",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex20CombinationsSizeK2",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex20CombinationsSizeK2",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex20CombinationsSizeKPractice",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex20CombinationsSizeKPractice",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex19CombinationsPractice",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex19CombinationsPractice",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex18PermutationsSizeKPractice",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex18PermutationsSizeKPractice",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex17PermutationsPractice",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex17PermutationsPractice",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex6GcdOf4Numbers",
+      "request": "launch",
+      "mainClass": "week6.recursion.exercises.Ex6GcdOf4Numbers",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Collatz",
+      "request": "launch",
+      "mainClass": "week6.recursion.lectures.Collatz",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex20CombinationsSizeK",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex20CombinationsSizeK",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex19Combinations",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex19Combinations",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex18PermutationsSizeK",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex18PermutationsSizeK",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex17Permutations",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex17Permutations",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex16A4Paper",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex16A4Paper",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex14AnimatedHTree",
+      "request": "launch",
+      "mainClass": "week6.recursion.exercises.Ex14AnimatedHTree",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "5"
+    },
+    {
+      "type": "java",
+      "name": "Ex15BinaryRepresentation",
+      "request": "launch",
+      "mainClass": "week6.recursion.creative_exercises.Ex15BinaryRepresentation",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex14ModifyHTree",
+      "request": "launch",
+      "mainClass": "week6.recursion.exercises.Ex14ModifyHTree",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "5"
+    },
+    {
+      "type": "java",
+      "name": "Ex9Ruler",
+      "request": "launch",
+      "mainClass": "week6.recursion.exercises.Ex9Ruler",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex8MysteryRecursion",
+      "request": "launch",
+      "mainClass": "week6.recursion.exercises.Ex8MysteryRecursion",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex7EuclidLike",
+      "request": "launch",
+      "mainClass": "week6.recursion.exercises.Ex7EuclidLike",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex4ValueOfEx234",
+      "request": "launch",
+      "mainClass": "week6.recursion.exercises.Ex4ValueOfEx234",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex3printEx233",
+      "request": "launch",
+      "mainClass": "week6.recursion.exercises.Ex3printEx233",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex2LogNFactorial",
+      "request": "launch",
+      "mainClass": "week6.recursion.exercises.Ex2LogNFactorial",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex1NegativeFactorial",
+      "request": "launch",
+      "mainClass": "week6.recursion.exercises.Ex1NegativeFactorial",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "FactorialSimple",
+      "request": "launch",
+      "mainClass": "week6.recursion.lectures.FactorialSimple",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch gcdOf4Numbers",
+      "request": "launch",
+      "mainClass": "week6.recursion.exercises.gcdOf4Numbers",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch HammingRecursiveExample",
+      "request": "launch",
+      "mainClass": "week6.recursion.optional_enrichment.HammingRecursiveExample",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Launch Hammingdistance",
+      "request": "launch",
+      "mainClass": "week6.recursion.optional_enrichment.Hammingdistance",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "4 0000"
+    },
+    {
+      "type": "java",
+      "name": "Launch Combinations",
+      "request": "launch",
+      "mainClass": "week6.recursion.optional_enrichment.Combinations",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "3"
+    },
+    {
+      "type": "java",
+      "name": "Launch A4paper",
+      "request": "launch",
+      "mainClass": "week6.recursion.optional_enrichment.A4paper",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "7"
+    },
+    {
+      "type": "java",
+      "name": "Launch PlotRuler",
+      "request": "launch",
+      "mainClass": "week6.recursion.optional_enrichment.PlotRuler",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "5"
+    },
+    {
+      "type": "java",
+      "name": "Launch Beckett",
+      "request": "launch",
+      "mainClass": "week6.recursion.lectures.Beckett",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Euclid",
+      "request": "launch",
+      "mainClass": "week6.recursion.lectures.Euclid",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "1440 408"
+    },
+    {
+      "type": "java",
+      "name": "Launch Factorial",
+      "request": "launch",
+      "mainClass": "week6.recursion.lectures.Factorial",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "4"
+    },
+    {
+      "type": "java",
+      "name": "Launch LCS",
+      "request": "launch",
+      "mainClass": "week6.recursion.lectures.LCS",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "ggcaccacg acggcggatacg"
+    },
+    {
+      "type": "java",
+      "name": "Launch Fibonacci",
+      "request": "launch",
+      "mainClass": "week6.recursion.lectures.Fibonacci",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "80"
+    },
+    {
+      "type": "java",
+      "name": "Launch FibonacciM",
+      "request": "launch",
+      "mainClass": "week6.recursion.lectures.FibonacciM",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "60"
+    },
+    {
+      "type": "java",
+      "name": "Launch FibonacciR",
+      "request": "launch",
+      "mainClass": "week6.recursion.lectures.FibonacciR",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "12"
+    },
+    {
+      "type": "java",
+      "name": "Launch Brownian",
+      "request": "launch",
+      "mainClass": "week6.recursion.lectures.Brownian",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "1"
+    },
+    {
+      "type": "java",
+      "name": "Launch Htree",
+      "request": "launch",
+      "mainClass": "week6.recursion.lectures.Htree",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "5"
+    },
+    {
+      "type": "java",
+      "name": "Launch Hanoi",
+      "request": "launch",
+      "mainClass": "week6.recursion.lectures.Hanoi",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Binary",
+      "request": "launch",
+      "mainClass": "week6.recursion.lectures.Binary",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "37"
+    },
+    {
+      "type": "java",
       "name": "Launch PokerClient",
       "request": "launch",
       "mainClass": "week5.functionsandlibraries.optional_enrichment.PokerClient",
