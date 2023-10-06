@@ -1,3 +1,11 @@
 out/
 *.log
 
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/libraries/algs4.xml
+.idea/libraries/introcs.xml
+.idea/libraries/stdlib.xml
+Functions exercises

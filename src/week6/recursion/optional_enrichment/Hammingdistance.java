@@ -8,7 +8,7 @@ import edu.princeton.cs.algs4.StdOut;
  * Write a program that reads in an integer k and a bit string s from the 
  * command line, and prints all bit strings that have Hamming distance at 
  * most k from s. For example, if k is 2 and s is 0000, then your program 
- * should print
+ * should print.
  * 
  * 0011 0101 0110 1001 1010 1100 
  * 
@@ -44,8 +44,6 @@ public class Hammingdistance {
             else
                 return 1 + hammingDistRecursive(a.substring(1), b.substring(1));
         }
-
-
     }
 
     private static void HammingDistanceTo(int k, String s) {
@@ -57,7 +55,7 @@ public class Hammingdistance {
                 bitStringComb = "0" + bitStringComb;
             }
 
-            if (hammingDistRecursive(s, bitStringComb) == 2) {
+            if (hammingDistRecursive(s, bitStringComb) == k) {
                 result += bitStringComb + " ";
             }
         }

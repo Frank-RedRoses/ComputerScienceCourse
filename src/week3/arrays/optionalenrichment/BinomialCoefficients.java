@@ -20,7 +20,7 @@ public class BinomialCoefficients {
         double[][] binomial =  new double[n+1][];
 
         // initial row
-        binomial[1] = new double[1 + 2];    // a[1][0] and a[1][0] values = 0.0 are needed for the next row.
+        binomial[1] = new double[1 + 2];    // a[1][0] and a[1][2] values = 0.0 are needed for the next row.
         binomial[1][1] = 1.0;
 
         // Fill in coefficients of binomial distribution.

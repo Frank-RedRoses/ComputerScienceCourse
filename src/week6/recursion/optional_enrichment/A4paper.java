@@ -39,7 +39,7 @@ public class A4paper {
         double ratioIso = Math.sqrt(2);
         double areaA0SqrMeters = 1;
         int aInitialSize = 0;
-        StdDraw.setCanvasSize((int) (512 * ratioIso),  512);
+        StdDraw.setCanvasSize((int) (512 * ratioIso), 512);
         double xA0 = Math.sqrt(areaA0SqrMeters * ratioIso) * 1000;
         double yA0 = Math.sqrt(areaA0SqrMeters / ratioIso) * 1000;
         StdDraw.setXscale(0.0, xA0);

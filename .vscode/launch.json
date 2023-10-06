@@ -6,6 +6,144 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RepeatedInteger",
+      "request": "launch",
+      "mainClass": "week7.performance.optional_enrichment.RepeatedInteger",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "ArrayRotation",
+      "request": "launch",
+      "mainClass": "week7.performance.optional_enrichment.ArrayRotation",
+      "args": "3",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "ThreeSumAnalysis",
+      "request": "launch",
+      "mainClass": "week7.performance.optional_enrichment.ThreeSumAnalysis",
+      "args": "100 10000",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "HistogramArray",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.optional_enrichment.HistogramArray",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "PlayThatChord",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.lecture.digital_audio.PlayThatChord",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "0 3 5.0"
+    },
+    {
+      "type": "java",
+      "name": "PlayThatTune",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.lecture.digital_audio.PlayThatTune",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "PlayThatNote",
+      "request": "launch",
+      "mainClass": "week5.functionsandlibraries.lecture.digital_audio.PlayThatNote",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "494.0 3.0"
+    },
+    {
+      "type": "java",
+      "name": "PrimeSieve",
+      "request": "launch",
+      "mainClass": "week3.arrays.lectures.PrimeSieve",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Minesweeper",
+      "request": "launch",
+      "mainClass": "week3.arrays.assigment.Minesweeper",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex9OrderOfGrowth",
+      "request": "launch",
+      "mainClass": "week7.performance.exercises.Ex9OrderOfGrowth",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": [
+        "<",
+        "${workspaceFolder}/resources/In/Ex9OrderOfGrowth/64Kints.txt"
+      ]
+    },
+    {
+      "type": "java",
+      "name": "InputGenerator",
+      "request": "launch",
+      "mainClass": "week7.performance.lecture.InputGenerator",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": [
+        "2147483647",
+        "10000",
+        ">",
+        "${workspaceFolder}/resources/Out/test1.txt"
+      ]
+    },
+    {
+      "type": "java",
+      "name": "Ex7ValueOfCount",
+      "request": "launch",
+      "mainClass": "week7.performance.exercises.Ex7ValueOfCount",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ex3FourSum",
+      "request": "launch",
+      "mainClass": "week7.performance.exercises.Ex3FourSum",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": [
+        "<",
+        "${workspaceFolder}/resources/in/fourSum/2Kints.txt"
+      ]
+    },
+    {
+      "type": "java",
+      "name": "Ex1ThreeSum",
+      "request": "launch",
+      "mainClass": "week7.performance.exercises.Ex1ThreeSum",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": [
+        "<",
+        "${workspaceFolder}/resources/in/threeSum/4Kints.txt"
+      ]
+    },
+    {
+      "type": "java",
+      "name": "Timeprimitives",
+      "request": "launch",
+      "mainClass": "week7.performance.q_and_a.Timeprimitives",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "ThreeSum",
+      "request": "launch",
+      "mainClass": "week7.performance.lecture.ThreeSum",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": [
+        "<",
+        "${workspaceFolder}/resources/Out/InputThreeSum.txt"
+      ]
+    },
+    {
+      "type": "java",
       "name": "Ex33Tree",
       "request": "launch",
       "mainClass": "week6.recursion.creative_exercises.Ex33Tree",
