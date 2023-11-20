@@ -6,6 +6,82 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SubStrings",
+      "request": "launch",
+      "mainClass": "week8.adt.optional_enrichment.SubStrings",
+      "args": "work in",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "GrayscaleHistogram",
+      "request": "launch",
+      "mainClass": "week8.adt.optional_enrichment.GrayscaleHistogram",
+      "args": "${workspaceFolder}/resources/In/pictures/darwin.jpg",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "GeneFinder",
+      "request": "launch",
+      "mainClass": "week8.adt.lecture.GeneFinder",
+      "args": "ATAGATGCATAGCGCATAGCTAGATGTGCTAGC",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Gene",
+      "request": "launch",
+      "mainClass": "week8.adt.lecture.Gene",
+      "args": "ATGCCGTGACGTCTGTACTAG",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Scale",
+      "request": "launch",
+      "mainClass": "week8.adt.lecture.Scale",
+      "args": [
+        "${workspaceFolder}/resources/In/pictures/mandrill.jpg",
+        300,
+        900
+      ],
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "UpsideDown",
+      "request": "launch",
+      "mainClass": "week8.adt.lecture.UpsideDown",
+      "args": "${workspaceFolder}/resources/In/pictures/mandrill.jpg",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Luminance",
+      "request": "launch",
+      "mainClass": "week8.adt.lecture.Grayscale",
+      "args": "${workspaceFolder}/resources/In/pictures/colors.jpg",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Luminance",
+      "request": "launch",
+      "mainClass": "week8.adt.lecture.Luminance",
+      "args": "0 0 255 119 33 27",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "AlbersSquare",
+      "request": "launch",
+      "mainClass": "week8.adt.lecture.AlbersSquare",
+      "args": "251 112 34 177 153 71",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
       "name": "RepeatedInteger",
       "request": "launch",
       "mainClass": "week7.performance.optional_enrichment.RepeatedInteger",
