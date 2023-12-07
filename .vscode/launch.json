@@ -6,6 +6,91 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NewtonChaos",
+      "request": "launch",
+      "mainClass": "week9.adtcreation.optional_enrichment.NewtonChaos",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "128"
+    },
+    {
+      "type": "java",
+      "name": "IntervalClient",
+      "request": "launch",
+      "mainClass": "week9.adtcreation.optional_enrichment.IntervalClient",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "3.1 < ${workspaceFolder}/resources/In/Week9/intervals5.txt"
+    },
+    {
+      "type": "java",
+      "name": "Point",
+      "request": "launch",
+      "mainClass": "week9.adtcreation.optional_enrichment.Point",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "3.0 1.0 < ${workspaceFolder}/resources/In/Week9/points5.txt"
+    },
+    {
+      "type": "java",
+      "name": "Interval",
+      "request": "launch",
+      "mainClass": "week9.adtcreation.optional_enrichment.Interval",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "< ${workspaceFolder}/resources/In/Week9/intervals5.txt"
+    },
+    {
+      "type": "java",
+      "name": "Mandelbrot",
+      "request": "launch",
+      "mainClass": "week9.adtcreation.lecture.Mandelbrot",
+      "projectName": "ComputerScienceCourse_36943d36",
+      "args": "-0.5 0 2 32"
+    },
+    {
+      "type": "java",
+      "name": "Complex",
+      "request": "launch",
+      "mainClass": "week9.adtcreation.lecture.Complex",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Spiral",
+      "request": "launch",
+      "mainClass": "week9.adtcreation.lecture.Spiral",
+      "args": "7 1.2",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Ngon",
+      "request": "launch",
+      "mainClass": "week9.adtcreation.lecture.Ngon",
+      "args": "7",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Turtle",
+      "request": "launch",
+      "mainClass": "week9.adtcreation.lecture.Turtle",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Potential",
+      "request": "launch",
+      "mainClass": "week9.adtcreation.lecture.Potential",
+      "args": "< ${workspaceFolder}/resources/In/Week9/charges9.txt",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
+      "name": "Charge",
+      "request": "launch",
+      "mainClass": "week9.adtcreation.lecture.Charge",
+      "projectName": "ComputerScienceCourse_36943d36"
+    },
+    {
+      "type": "java",
       "name": "SubStrings",
       "request": "launch",
       "mainClass": "week8.adt.optional_enrichment.SubStrings",
