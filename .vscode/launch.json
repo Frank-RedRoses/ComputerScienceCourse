@@ -3,6 +3,46 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PercolationPlot",
+            "request": "launch",
+            "mainClass": "case_study.functions_and_modules.percolation.PercolationPlot",
+            "projectName": "ComputerScienceCourse_936568c6",
+            "args": "20"
+        },
+        {
+            "type": "java",
+            "name": "PercolationProbability",
+            "request": "launch",
+            "mainClass": "case_study.functions_and_modules.percolation.PercolationProbability",
+            "projectName": "ComputerScienceCourse_936568c6",
+            "args": "40 0.85 40000"
+        },
+        {
+            "type": "java",
+            "name": "PercolationVisualizer",
+            "request": "launch",
+            "mainClass": "case_study.functions_and_modules.percolation.PercolationVisualizer",
+            "projectName": "ComputerScienceCourse_936568c6",
+            "args": "20 0.60"
+        },
+        {
+            "type": "java",
+            "name": "PercolationVertical",
+            "request": "launch",
+            "mainClass": "case_study.functions_and_modules.percolation.PercolationVertical",
+            "projectName": "ComputerScienceCourse_936568c6",
+            "args": "< ${workspaceFolder}/resources/In/percolation/test5.txt"
+        },
+        {
+            "type": "java",
+            "name": "Percolation",
+            "request": "launch",
+            "mainClass": "case_study.functions_and_modules.percolation.Percolation",
+            "projectName": "ComputerScienceCourse_936568c6",
+            "args": "< ${workspaceFolder}/resources/In/percolation/test8.txt"
+        },
+        {
+            "type": "java",
             "name": "ThreeSum",
             "request": "launch",
             "mainClass": "week10.programming_languages.lecture.ThreeSum",
@@ -1577,7 +1617,11 @@
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-            "args": ["8", "<", "../8ints.txt"],
+            "args": [
+                "8",
+                "<",
+                "../8ints.txt"
+            ],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
