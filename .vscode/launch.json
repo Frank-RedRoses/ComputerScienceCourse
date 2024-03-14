@@ -3,6 +3,29 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BouncingBalls",
+            "request": "launch",
+            "mainClass": "case_study.oop.nbody_simulation.BouncingBalls",
+            "projectName": "ComputerScienceCourse_936568c6",
+            "args": "10"
+        },
+        {
+            "type": "java",
+            "name": "Ball",
+            "request": "launch",
+            "mainClass": "case_study.oop.nbody_simulation.Ball",
+            "projectName": "ComputerScienceCourse_936568c6"
+        },
+        {
+            "type": "java",
+            "name": "Universe",
+            "request": "launch",
+            "mainClass": "case_study.oop.nbody_simulation.Universe",
+            "projectName": "ComputerScienceCourse_936568c6",
+            "args": "${workspaceFolder}/resources/In/nbodysimulation/4body.txt 20000"
+        },
+        {
+            "type": "java",
             "name": "PercolationPlot",
             "request": "launch",
             "mainClass": "case_study.functions_and_modules.percolation.PercolationPlot",
